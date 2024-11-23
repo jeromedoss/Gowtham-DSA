@@ -6,11 +6,11 @@ import org.testng.annotations.Test;
 
 public class TestLinkedList {
 
-    private LinkedList list;
+    private LinkedList<Integer> list;
 
     @BeforeClass
     public void beforeSetUp(){
-        list = new LinkedList();
+        list = new LinkedList<>();
     }
 
     @Test
@@ -21,5 +21,22 @@ public class TestLinkedList {
         System.out.println(" ");
         list.insertAtPos(1, 3);
         list.displayAll();
+    }
+    @Test
+    public void insertTenNumbers(){
+        for(int i = 10; i>0; i--){
+            list.insertAtBeginning(i);
+        }
+        list.displayAll();
+        list.deleteAtPos(9);
+        list.displayAll();
+        list.search(9);
+        System.out.println(" ");
+        list.add(23);
+        list.displayAll();
+        System.out.println(" ");
+        LinkedList<Integer> list2 = new LinkedList<>();
+        list2.add(1);
+        list2.displayAll();
     }
 }
