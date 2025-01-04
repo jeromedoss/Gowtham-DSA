@@ -1,4 +1,4 @@
-package DSA;
+package org.gowtham.DataStructures.List;
 
 import java.util.Iterator;
 

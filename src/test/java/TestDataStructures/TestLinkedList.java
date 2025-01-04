@@ -1,6 +1,6 @@
 package TestDataStructures;
 
-import DSA.LinkedList;
+import org.gowtham.DataStructures.List.LinkedList;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
