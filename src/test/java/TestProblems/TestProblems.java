@@ -41,8 +41,7 @@ public class TestProblems {
         System.out.println(ProblemSolving.sortString("dcab"));
 
         String t = "Testeruser";
-
-      //  System.out.println(t.replace('s', 'y'));
+        //TODO: check the occurrence of all characters in a given string
         Map<Character, Integer> map = new HashMap<>();
         for(int i = 0; i < t.length(); i++) {
             if(map.containsKey(t.charAt(i))){

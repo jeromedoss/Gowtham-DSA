@@ -25,7 +25,7 @@ public class ProblemSolving {
             }
         }
     }
-
+    //TODO: Check the occurrence of a number in an array
     public static int checkOccurrence(int[] arr, int target, int end){
         if(end < 0){
             return 0;
@@ -36,7 +36,7 @@ public class ProblemSolving {
         }
         return count + checkOccurrence(arr, target, --end);
     }
-
+    //TODO: Check if the given array is sorted
     public static boolean checkSortArray(int[] arr, int i){
         if(i == arr.length - 1){
             return true;
@@ -46,7 +46,7 @@ public class ProblemSolving {
         }
         return checkSortArray(arr, ++i);
     }
-
+    //TODO: Even means 3 odd means 2, count the ears for the given number of bunnies
     public static int bunnyEars2(int bunnies) {
         if(bunnies == 0 ){
             return 0;
@@ -54,7 +54,7 @@ public class ProblemSolving {
         int count = bunnies % 2 == 0 ? 3 : 2;
         return count + bunnyEars2(-- bunnies);
     }
-
+    //TODO: Fibonacci using recursion
     public static int fibonacci(int n){
         if (n == 0) {
             return 0;
@@ -64,7 +64,7 @@ public class ProblemSolving {
         }
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
-
+    //TODO: Sort the given string
     public static String sortString(String s){
         char[] arr = s.toCharArray();
         char temp = 0;
@@ -79,7 +79,7 @@ public class ProblemSolving {
         }
        return Arrays.toString(arr);
     }
-
+    //TODO: Convert given roman to integer
     public static int romanToInteger(String romanString){
         Map<Character, Integer> roman = new LinkedHashMap<>();
         roman.put('I', 1);
@@ -99,6 +99,7 @@ public class ProblemSolving {
         }
         return sum;
     }
+    //TODO: Find the longest common prefix in the given array of string
     public String longestCommonPrefix(String[] strs) {
         String commonPrefix = strs[0];
         for(int i = 1; i < strs.length; i++){
@@ -111,6 +112,7 @@ public class ProblemSolving {
         }
         return commonPrefix;
     }
+    //TODO: Valid parenthesis using stack
     public boolean validParenthesis(String str) {
         Map<Character, Character> paranthesisMap = new HashMap<>();
         paranthesisMap.put('}', '{');
@@ -129,7 +131,7 @@ public class ProblemSolving {
         }
         return stack.isEmpty();
     }
-
+    //TODO: Find the first occurrence of a word in an another word
     public static int firstOccurrence(String haystack, String needle){
         return haystack.indexOf(needle);
     }
