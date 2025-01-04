@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Arrays;
+package org.gowtham.DataStructures.Tree;
 
 public class BinarySearchTree {
     private Node root;

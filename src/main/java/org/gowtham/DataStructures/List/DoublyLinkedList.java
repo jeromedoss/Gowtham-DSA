@@ -1,4 +1,4 @@
-package org.example;
+package org.gowtham.DataStructures.List;
 
 public class DoublyLinkedList<T> {
     class Node {

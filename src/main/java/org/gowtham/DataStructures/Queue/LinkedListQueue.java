@@ -1,4 +1,4 @@
-package org.example;
+package org.gowtham.DataStructures.Queue;
 
 public class LinkedListQueue<T> {
     Node front;

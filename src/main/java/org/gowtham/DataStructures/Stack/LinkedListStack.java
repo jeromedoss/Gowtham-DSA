@@ -1,4 +1,4 @@
-package org.example;
+package org.gowtham.DataStructures.Stack;
 
 public class LinkedListStack<T> {
     Node top;

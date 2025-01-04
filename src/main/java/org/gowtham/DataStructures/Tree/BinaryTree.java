@@ -1,4 +1,4 @@
-package org.example;
+package org.gowtham.DataStructures.Tree;
 
 public class BinaryTree {
 

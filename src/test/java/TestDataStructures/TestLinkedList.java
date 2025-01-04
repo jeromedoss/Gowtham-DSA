@@ -1,5 +1,7 @@
 package TestDataStructures;
 
+import org.gowtham.DataStructures.List.CircularLinkedList;
+import org.gowtham.DataStructures.List.DoublyLinkedList;
 import org.gowtham.DataStructures.List.LinkedList;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -38,5 +40,39 @@ public class TestLinkedList {
         LinkedList<Integer> list2 = new LinkedList<>();
         list2.add(1);
         list2.displayAll();
+    }
+    @Test
+    public void testDoublyLinkedList(){
+        DoublyLinkedList<Integer> list = new DoublyLinkedList<>();
+        list.insertAtBeginning(3);
+        list.insertAtBeginning(7);
+        list.insertAtBeginning(9);
+
+        list.displayAll();
+        System.out.println();
+        list.displayAllInRev();
+
+        list.insertAtPos(3, 10 );
+        System.out.println();
+        list.displayAll();
+        System.out.println();
+        list.displayAllInRev();
+        list.deleteAtPosition(0);
+        list.displayAll();
+    }
+    @Test
+    public void testCircularLinkedList() {
+        CircularLinkedList<Integer> list = new CircularLinkedList<>();
+        list.insertAtBeginning(3);
+        list.insertAtBeginning(7);
+        list.insertAtBeginning(9);
+        list.insertAtEnd(67);
+        list.display();
+        list.deleteAtBeginning();
+        System.out.println();
+        list.display();
+        list.deleteAtEnd();
+        System.out.println();
+        list.display();
     }
 }

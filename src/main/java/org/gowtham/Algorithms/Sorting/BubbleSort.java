@@ -1,4 +1,4 @@
-package org.example;
+package org.gowtham.Algorithms.Sorting;
 
 public class BubbleSort {
     // Time complexity = O(n^2)
