@@ -1,6 +1,6 @@
 package TestDataStructures;
 
-import org.gowtham.DataStructures.List.ArrayList;
+import org.gowtham.DataStructures.LinearDataStructures.List.ArrayList;
 import org.testng.annotations.Test;
 
 public class TestArrayList {

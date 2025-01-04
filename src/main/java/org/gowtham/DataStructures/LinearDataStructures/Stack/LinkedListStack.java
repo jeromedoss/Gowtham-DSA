@@ -1,4 +1,4 @@
-package org.gowtham.DataStructures.Stack;
+package org.gowtham.DataStructures.LinearDataStructures.Stack;
 
 public class LinkedListStack<T> {
     Node top;

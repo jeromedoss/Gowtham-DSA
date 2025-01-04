@@ -1,4 +1,4 @@
-package org.gowtham.DataStructures.Tree;
+package org.gowtham.DataStructures.NonLinearDataStructures.Tree;
 
 public class BinarySearchTree {
     private Node root;

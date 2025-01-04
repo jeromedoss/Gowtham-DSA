@@ -1,8 +1,8 @@
 package TestDataStructures;
 
-import org.gowtham.DataStructures.List.CircularLinkedList;
-import org.gowtham.DataStructures.List.DoublyLinkedList;
-import org.gowtham.DataStructures.List.LinkedList;
+import org.gowtham.DataStructures.LinearDataStructures.List.CircularLinkedList;
+import org.gowtham.DataStructures.LinearDataStructures.List.DoublyLinkedList;
+import org.gowtham.DataStructures.LinearDataStructures.List.LinkedList;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 

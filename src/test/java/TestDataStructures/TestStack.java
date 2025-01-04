@@ -1,8 +1,8 @@
 package TestDataStructures;
 
 
-import org.gowtham.DataStructures.Stack.ArrayStack;
-import org.gowtham.DataStructures.Stack.LinkedListStack;
+import org.gowtham.DataStructures.LinearDataStructures.Stack.ArrayStack;
+import org.gowtham.DataStructures.LinearDataStructures.Stack.LinkedListStack;
 import org.testng.annotations.Test;
 
 public class TestStack {

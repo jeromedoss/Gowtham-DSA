@@ -1,9 +1,9 @@
 package TestDataStructures;
 
 
-import org.gowtham.DataStructures.Queue.ArrayCircularQueue;
-import org.gowtham.DataStructures.Queue.ArrayQueue;
-import org.gowtham.DataStructures.Queue.LinkedListQueue;
+import org.gowtham.DataStructures.LinearDataStructures.Queue.ArrayCircularQueue;
+import org.gowtham.DataStructures.LinearDataStructures.Queue.ArrayQueue;
+import org.gowtham.DataStructures.LinearDataStructures.Queue.LinkedListQueue;
 import org.testng.annotations.Test;
 
 public class TestQueue {

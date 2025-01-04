@@ -1,4 +1,4 @@
-package org.gowtham.DataStructures.List;
+package org.gowtham.DataStructures.LinearDataStructures.List;
 
 public class CircularLinkedList<T> {
     Node last;

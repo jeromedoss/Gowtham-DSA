@@ -1,4 +1,4 @@
-package org.gowtham.DataStructures.Queue;
+package org.gowtham.DataStructures.LinearDataStructures.Queue;
 
 public class ArrayQueue<T> {
     private static final int capacity = 1000;

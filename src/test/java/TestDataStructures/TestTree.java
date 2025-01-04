@@ -1,11 +1,11 @@
 package TestDataStructures;
 
 
-import org.gowtham.DataStructures.Tree.BinarySearchTree;
-import org.gowtham.DataStructures.Tree.BinaryTree;
+import org.gowtham.DataStructures.NonLinearDataStructures.Tree.BinarySearchTree;
+import org.gowtham.DataStructures.NonLinearDataStructures.Tree.BinaryTree;
 import org.testng.annotations.Test;
 
-import static org.gowtham.DataStructures.Tree.BinarySearchTree.inorder;
+import static org.gowtham.DataStructures.NonLinearDataStructures.Tree.BinarySearchTree.inorder;
 
 
 public class TestTree {
